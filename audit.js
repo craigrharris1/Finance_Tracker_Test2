@@ -1,5 +1,4 @@
 /**
- * 
 * Optimized Audit Script
 * 1. Removes visual alerts to prevent hanging.
 * 2. Uses bulk-processing for speed.
