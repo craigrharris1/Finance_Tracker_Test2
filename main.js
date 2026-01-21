@@ -1,5 +1,4 @@
 /**
-*
 * SUM_REGULAR_PAYMENTS
 *
 * Custom function to sum the Regular Payments due in a given month based on the First Payment

@@ -1,5 +1,4 @@
 /**
-*
 * Functions used ONLY to test production code within the Apps Script Editor environment
 */
 
