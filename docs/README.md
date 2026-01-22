@@ -2,6 +2,18 @@
 
 A Google Apps Script project to support household financial tracking in a Google Sheets spreadsheets.
 
+## 📖 Table of Contents
+1. [Directory Structure](#-directory-structure)
+2. [Setup & Usage](#-setup--usage)
+3. [Syncing Workflow](#-syncing-workflow)
+4. [Troubleshooting](#-troubleshooting--sync-tips)
+
+## 📁 Directory Structure
+* [**/audits**](../audits) - *Click to view formula logs*
+* [**/docs**](../docs) - *Project documentation*
+* **Audit.js** - The core auditing engine (Root)
+* **main.js** - Daily operation logic (Root)
+
 ## 📁 Project Structure
 * **Audit.js**: Creates an audit of spreadsheet structure and formulae to enable change tracking
 * **main.js**: Contains the core logic for the Finance Tracker's daily operations.
