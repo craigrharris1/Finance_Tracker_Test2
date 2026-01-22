@@ -1,6 +1,5 @@
 /**
- * 
- * 
+*
 * Optimized Audit Script v2.3
 * ADDED: Error Flagging AND Hardcode Detection
 */
