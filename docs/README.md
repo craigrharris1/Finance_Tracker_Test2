@@ -46,3 +46,8 @@ If you encounter the `github assistance undefined` error, check the following:
 * **Source of Truth**: Treat the Apps Script editor as the "source of truth" and GitHub as the backup storage.
 * **Manual Re-sync**: If the sides get out of alignment, manually copy the code from GitHub, paste it into the editor, and then perform a fresh **Push** to reset the connection.
 * **Refresh GitHub**: Changes pushed from Apps Script may not appear immediately; always **refresh (F5)** the GitHub page to verify a successful push.
+---
+## 📜 Version History
+* **v2.3 (Current):** Added Error Flagging and Hardcode Detection.
+* **v2.0:** Optimized for Chromebook & Batch processing.
+* **v1.0:** Initial Setup.
