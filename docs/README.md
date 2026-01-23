@@ -1,6 +1,30 @@
 # Finance Tracker 📊
 
-A Google Apps Script project to support household financial tracking in a Google Sheets spreadsheets.
+## ☁️ Cloud Infrastructure & Monitoring
+
+This project is upgraded from a standalone script to a **Standard Google Cloud Platform (GCP)** managed application.
+
+### 🏗️ Project Details
+* **GCP Project Name:** Finance-Tracker-Test
+* **User Type:** External (Testing Mode)
+* **Auth Identity:** OAuth 2.0 Client ID (Web Application)
+
+### 📊 Monitoring & Alerts
+* **Logs Explorer:** All script executions are logged to GCP Cloud Logging. 
+* **Retention:** Logs are retained for 30 days.
+* **Automated Alerts:** An alerting policy is active to monitor `textPayload`.
+    * **Trigger:** `!! [ERROR]`
+    * **Action:** Immediate email notification to system administrator.
+
+### 🔑 Enabled APIs
+The following APIs must remain enabled in the GCP Console for the system to function:
+1. **Google Sheets API:** Core data read/write.
+2. **Google Drive API:** Generating and saving audit logs.
+3. **Apps Script API:** Linkage between the script editor and GCP.
+
+### 🛠️ Maintenance Notes
+* If authorization fails, ensure your email is still listed under **APIs & Services > OAuth consent screen > Test users**.
+* To view live logs: [Google Cloud Logs Explorer](https://console.cloud.google.com/logs/explorer)A Google Apps Script project to support household financial tracking in a Google Sheets spreadsheets.
 
 ## 📖 Table of Contents
 1. [Directory Structure](#-directory-structure)
